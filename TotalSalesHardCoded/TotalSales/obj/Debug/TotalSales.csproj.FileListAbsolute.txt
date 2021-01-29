@@ -1,0 +1,10 @@
+C:\Users\Kevin\Desktop\CSC-153 Github C#\TotalSalesHardCoded\TotalSales\obj\Debug\TotalSales.csprojAssemblyReference.cache
+C:\Users\Kevin\Desktop\CSC-153 Github C#\TotalSalesHardCoded\TotalSales\obj\Debug\TotalSales.Properties.Resources.resources
+C:\Users\Kevin\Desktop\CSC-153 Github C#\TotalSalesHardCoded\TotalSales\obj\Debug\TotalSales.csproj.GenerateResource.cache
+C:\Users\Kevin\Desktop\CSC-153 Github C#\TotalSalesHardCoded\TotalSales\obj\Debug\TotalSales.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Desktop\CSC-153 Github C#\TotalSalesHardCoded\TotalSales\bin\Debug\TotalSales.exe.config
+C:\Users\Kevin\Desktop\CSC-153 Github C#\TotalSalesHardCoded\TotalSales\bin\Debug\TotalSales.exe
+C:\Users\Kevin\Desktop\CSC-153 Github C#\TotalSalesHardCoded\TotalSales\bin\Debug\TotalSales.pdb
+C:\Users\Kevin\Desktop\CSC-153 Github C#\TotalSalesHardCoded\TotalSales\obj\Debug\TotalSales.exe
+C:\Users\Kevin\Desktop\CSC-153 Github C#\TotalSalesHardCoded\TotalSales\obj\Debug\TotalSales.pdb
+C:\Users\Kevin\Desktop\CSC-153 Github C#\TotalSalesHardCoded\TotalSales\obj\Debug\TotalSales.Form1.resources
