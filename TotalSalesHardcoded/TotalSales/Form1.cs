@@ -9,6 +9,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 
+/*
+* 1/28/2021
+* CSC 153
+* Kevin Griffin
+* Takes values from an array and displays them and also shows the total of all array values.
+*/
+
 namespace TotalSales
 {
     public partial class Form1 : Form
