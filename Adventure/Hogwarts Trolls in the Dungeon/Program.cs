@@ -41,7 +41,7 @@ namespace Hogwarts_Trolls_in_the_Dungeon
             Enemies.Add("Kappa"); // Water
             Enemies.Add("Blast-Ended Skrewt"); // Fire
             Enemies.Add("Dugbog"); // Grass/Wood
-            Enemies.Add("Nogtail");// Neutral
+            Enemies.Add("Nogtail"); // Neutral
             Enemies.Add("Mountain Troll"); // Boss - Neutral
 
             // Some useful variables
@@ -66,6 +66,8 @@ namespace Hogwarts_Trolls_in_the_Dungeon
                 Console.WriteLine("6. Enemies");
                 Console.WriteLine("7. Exit");
                 Console.WriteLine("________________________________________________________________________________________________________________________");
+                Console.WriteLine("Current Location: " + Rooms[playerPos]);
+                Console.WriteLine("");
                 Console.Write("Enter a choice > ");
                 string input = Console.ReadLine();
 
@@ -74,6 +76,9 @@ namespace Hogwarts_Trolls_in_the_Dungeon
                 switch (input)
                 {
                     case "1":
+                        Console.WriteLine("");
+                        Console.WriteLine("Rooms:");
+                        Console.WriteLine("_______________________________________________");
 
                         foreach (string index in Rooms)
                         {
@@ -84,6 +89,10 @@ namespace Hogwarts_Trolls_in_the_Dungeon
                         break;
 
                     case "2":
+                        Console.WriteLine("");
+                        Console.WriteLine("Spells:");
+                        Console.WriteLine("_______________________________________________");
+
                         foreach (string index in Spells)
                         {
                             Console.WriteLine(index);
@@ -91,6 +100,10 @@ namespace Hogwarts_Trolls_in_the_Dungeon
                         break;
 
                     case "3":
+                        Console.WriteLine("");
+                        Console.WriteLine("Potions:");
+                        Console.WriteLine("_______________________________________________");
+
                         foreach (string index in Potions)
                         {
                             Console.WriteLine(index);                   // TODO add line that displays count
@@ -98,6 +111,10 @@ namespace Hogwarts_Trolls_in_the_Dungeon
                         break;
 
                     case "4":
+                        Console.WriteLine("");
+                        Console.WriteLine("Money:");
+                        Console.WriteLine("_______________________________________________");
+
                         foreach (string index in Money)
                         {
                             Console.WriteLine(index);                   // TODO add line that displays count
@@ -105,6 +122,10 @@ namespace Hogwarts_Trolls_in_the_Dungeon
                         break;
 
                     case "5":
+                        Console.WriteLine("");
+                        Console.WriteLine("Items:");
+                        Console.WriteLine("_______________________________________________");
+
                         foreach (string index in Items)
                         {
                             Console.WriteLine(index);
@@ -112,6 +133,10 @@ namespace Hogwarts_Trolls_in_the_Dungeon
                         break;
 
                     case "6":
+                        Console.WriteLine("");
+                        Console.WriteLine("Enemies:");
+                        Console.WriteLine("_______________________________________________");
+
                         foreach (string index in Enemies)
                         {
                             Console.WriteLine(index);
