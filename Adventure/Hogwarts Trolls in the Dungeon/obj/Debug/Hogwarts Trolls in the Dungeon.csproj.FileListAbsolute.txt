@@ -1,0 +1,7 @@
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Adventure\Hogwarts Trolls in the Dungeon\bin\Debug\Hogwarts Trolls in the Dungeon.exe.config
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Adventure\Hogwarts Trolls in the Dungeon\bin\Debug\Hogwarts Trolls in the Dungeon.exe
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Adventure\Hogwarts Trolls in the Dungeon\bin\Debug\Hogwarts Trolls in the Dungeon.pdb
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Adventure\Hogwarts Trolls in the Dungeon\obj\Debug\Hogwarts Trolls in the Dungeon.csprojAssemblyReference.cache
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Adventure\Hogwarts Trolls in the Dungeon\obj\Debug\Hogwarts Trolls in the Dungeon.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Adventure\Hogwarts Trolls in the Dungeon\obj\Debug\Hogwarts Trolls in the Dungeon.exe
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Adventure\Hogwarts Trolls in the Dungeon\obj\Debug\Hogwarts Trolls in the Dungeon.pdb

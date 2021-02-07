@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hogwarts Trolls in the Dungeon", "Hogwarts Trolls in the Dungeon\Hogwarts Trolls in the Dungeon.csproj", "{9C32D943-DB67-4DCB-997E-B1578F500D2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C32D943-DB67-4DCB-997E-B1578F500D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C32D943-DB67-4DCB-997E-B1578F500D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C32D943-DB67-4DCB-997E-B1578F500D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C32D943-DB67-4DCB-997E-B1578F500D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2D60A30-38E5-4CCE-89B5-5C961DEC9F07}
+	EndGlobalSection
+EndGlobal
