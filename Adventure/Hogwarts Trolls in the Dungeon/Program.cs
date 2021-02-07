@@ -25,7 +25,7 @@ namespace Hogwarts_Trolls_in_the_Dungeon
             
             string [] Rooms = new string[] {"Hogwart's Express", "Lake", "Entrance Hall", "Dungeons", "Common Room"}; // TODO Make rooms objects? and add more rooms with ability to go west and east.
 
-
+            string [] Spells = new string[] { "Stupefy", "Augmenti", "Incendio", "Incarcerous"}; // TODO add spells they also need to be objects
 
 
 
@@ -48,12 +48,12 @@ namespace Hogwarts_Trolls_in_the_Dungeon
             {
                 Console.WriteLine("________________________________________________________________________________________________________________________");
                 Console.WriteLine("TODO - User prompt");
-                Console.WriteLine("1. Display Rooms");
-                Console.WriteLine("2. Display Spells");
-                Console.WriteLine("3. Display Potion");
-                Console.WriteLine("4. Display Money");
-                Console.WriteLine("5. Display Items");
-                Console.WriteLine("6. Display Enemies");
+                Console.WriteLine("1. Rooms");
+                Console.WriteLine("2. Spells");
+                Console.WriteLine("3. Potions");
+                Console.WriteLine("4. Money");
+                Console.WriteLine("5. Items");
+                Console.WriteLine("6. Enemies");
                 Console.WriteLine("7. Exit");
                 Console.WriteLine("________________________________________________________________________________________________________________________");
                 Console.Write("Enter a choice > ");
@@ -71,7 +71,10 @@ namespace Hogwarts_Trolls_in_the_Dungeon
                         break;
 
                     case "2":
-                        // TODO Spells
+                        foreach (string index in Spells)
+                        {
+                            Console.WriteLine(index);
+                        }
                         break;
 
                     case "3":
