@@ -47,7 +47,7 @@ namespace Hogwarts_Trolls_in_the_Dungeon
             while (exit == false)
             {
                 Console.WriteLine("________________________________________________________________________________________________________________________");
-                Console.WriteLine("TODO - User prompt");
+                Console.WriteLine("Enter number or \"n\" to move North or \"s\" to move South");
                 Console.WriteLine("1. Rooms");
                 Console.WriteLine("2. Spells");
                 Console.WriteLine("3. Potions");
@@ -95,6 +95,26 @@ namespace Hogwarts_Trolls_in_the_Dungeon
 
                     case "7":
                         exit = true;
+                        break;
+
+                    case "n":
+                        if (playerPos == 4)
+                        {
+                            Console.WriteLine("Cannot move further North!");
+                            break;
+                        }
+                        playerPos++;
+                        Console.WriteLine("Current Area: " + Rooms[playerPos]);
+                        break;
+
+                    case "s":
+                        if (playerPos == 0)
+                        {
+                            Console.WriteLine("Cannot move further South!");
+                            break;
+                        }
+                        playerPos--;
+                        Console.WriteLine("Current Area: " + Rooms[playerPos]);
                         break;
 
                     default:
