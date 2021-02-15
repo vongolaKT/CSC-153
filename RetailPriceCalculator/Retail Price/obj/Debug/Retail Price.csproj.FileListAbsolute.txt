@@ -1,0 +1,10 @@
+C:\Users\Kevin\Desktop\CSC-153 Github C#\RetailPriceCalculator\Retail Price\obj\Debug\Retail Price.csprojAssemblyReference.cache
+C:\Users\Kevin\Desktop\CSC-153 Github C#\RetailPriceCalculator\Retail Price\obj\Debug\Retail_Price.Form1.resources
+C:\Users\Kevin\Desktop\CSC-153 Github C#\RetailPriceCalculator\Retail Price\obj\Debug\Retail_Price.Properties.Resources.resources
+C:\Users\Kevin\Desktop\CSC-153 Github C#\RetailPriceCalculator\Retail Price\obj\Debug\Retail Price.csproj.GenerateResource.cache
+C:\Users\Kevin\Desktop\CSC-153 Github C#\RetailPriceCalculator\Retail Price\obj\Debug\Retail Price.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Desktop\CSC-153 Github C#\RetailPriceCalculator\Retail Price\bin\Debug\Retail Price.exe.config
+C:\Users\Kevin\Desktop\CSC-153 Github C#\RetailPriceCalculator\Retail Price\bin\Debug\Retail Price.exe
+C:\Users\Kevin\Desktop\CSC-153 Github C#\RetailPriceCalculator\Retail Price\bin\Debug\Retail Price.pdb
+C:\Users\Kevin\Desktop\CSC-153 Github C#\RetailPriceCalculator\Retail Price\obj\Debug\Retail Price.exe
+C:\Users\Kevin\Desktop\CSC-153 Github C#\RetailPriceCalculator\Retail Price\obj\Debug\Retail Price.pdb
