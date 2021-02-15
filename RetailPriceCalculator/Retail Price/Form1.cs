@@ -8,6 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/**
+* 2/14/2021
+* CSC 153
+* Kevin Griffin
+* Takes input for the cost of an item and the desired markup Percentage then displays the final Markup price
+*/
+
 namespace Retail_Price
 {
     public partial class Form1 : Form
