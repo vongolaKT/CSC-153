@@ -1,0 +1,10 @@
+C:\Users\Kevin\Desktop\CSC-153 Github C#\FallingDistance\WinFormUI\bin\Debug\WinFormUI.exe.config
+C:\Users\Kevin\Desktop\CSC-153 Github C#\FallingDistance\WinFormUI\bin\Debug\WinFormUI.exe
+C:\Users\Kevin\Desktop\CSC-153 Github C#\FallingDistance\WinFormUI\bin\Debug\WinFormUI.pdb
+C:\Users\Kevin\Desktop\CSC-153 Github C#\FallingDistance\WinFormUI\obj\Debug\WinFormUI.csprojAssemblyReference.cache
+C:\Users\Kevin\Desktop\CSC-153 Github C#\FallingDistance\WinFormUI\obj\Debug\WinFormUI.Form1.resources
+C:\Users\Kevin\Desktop\CSC-153 Github C#\FallingDistance\WinFormUI\obj\Debug\WinFormUI.Properties.Resources.resources
+C:\Users\Kevin\Desktop\CSC-153 Github C#\FallingDistance\WinFormUI\obj\Debug\WinFormUI.csproj.GenerateResource.cache
+C:\Users\Kevin\Desktop\CSC-153 Github C#\FallingDistance\WinFormUI\obj\Debug\WinFormUI.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Desktop\CSC-153 Github C#\FallingDistance\WinFormUI\obj\Debug\WinFormUI.exe
+C:\Users\Kevin\Desktop\CSC-153 Github C#\FallingDistance\WinFormUI\obj\Debug\WinFormUI.pdb
