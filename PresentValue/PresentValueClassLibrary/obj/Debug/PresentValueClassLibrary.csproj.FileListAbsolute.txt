@@ -1,0 +1,5 @@
+C:\Users\griffink3794\Desktop\PresentValue\PresentValueClassLibrary\bin\Debug\PresentValueClassLibrary.dll
+C:\Users\griffink3794\Desktop\PresentValue\PresentValueClassLibrary\bin\Debug\PresentValueClassLibrary.pdb
+C:\Users\griffink3794\Desktop\PresentValue\PresentValueClassLibrary\obj\Debug\PresentValueClassLibrary.csprojAssemblyReference.cache
+C:\Users\griffink3794\Desktop\PresentValue\PresentValueClassLibrary\obj\Debug\PresentValueClassLibrary.dll
+C:\Users\griffink3794\Desktop\PresentValue\PresentValueClassLibrary\obj\Debug\PresentValueClassLibrary.pdb
