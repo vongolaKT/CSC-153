@@ -1,0 +1,6 @@
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Hogwarts_Trolls_In_The_Dungeon\EngineClassLibrary\obj\Debug\EngineClassLibrary.csprojAssemblyReference.cache
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Hogwarts_Trolls_In_The_Dungeon\EngineClassLibrary\obj\Debug\EngineClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Hogwarts_Trolls_In_The_Dungeon\EngineClassLibrary\bin\Debug\EngineClassLibrary.dll
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Hogwarts_Trolls_In_The_Dungeon\EngineClassLibrary\bin\Debug\EngineClassLibrary.pdb
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Hogwarts_Trolls_In_The_Dungeon\EngineClassLibrary\obj\Debug\EngineClassLibrary.dll
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Hogwarts_Trolls_In_The_Dungeon\EngineClassLibrary\obj\Debug\EngineClassLibrary.pdb

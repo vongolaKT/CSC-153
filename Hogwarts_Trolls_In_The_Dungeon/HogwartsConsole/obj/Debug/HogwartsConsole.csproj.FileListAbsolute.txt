@@ -1,0 +1,10 @@
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Hogwarts_Trolls_In_The_Dungeon\HogwartsConsole\obj\Debug\HogwartsConsole.csprojAssemblyReference.cache
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Hogwarts_Trolls_In_The_Dungeon\HogwartsConsole\obj\Debug\HogwartsConsole.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Hogwarts_Trolls_In_The_Dungeon\HogwartsConsole\bin\Debug\HogwartsConsole.exe.config
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Hogwarts_Trolls_In_The_Dungeon\HogwartsConsole\bin\Debug\HogwartsConsole.exe
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Hogwarts_Trolls_In_The_Dungeon\HogwartsConsole\bin\Debug\HogwartsConsole.pdb
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Hogwarts_Trolls_In_The_Dungeon\HogwartsConsole\bin\Debug\EngineClassLibrary.dll
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Hogwarts_Trolls_In_The_Dungeon\HogwartsConsole\bin\Debug\EngineClassLibrary.pdb
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Hogwarts_Trolls_In_The_Dungeon\HogwartsConsole\obj\Debug\HogwartsConsole.csproj.CopyComplete
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Hogwarts_Trolls_In_The_Dungeon\HogwartsConsole\obj\Debug\HogwartsConsole.exe
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Hogwarts_Trolls_In_The_Dungeon\HogwartsConsole\obj\Debug\HogwartsConsole.pdb
