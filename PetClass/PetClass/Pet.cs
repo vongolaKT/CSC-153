@@ -8,6 +8,8 @@ namespace PetClassLibrary
 {
     public class Pet
     {
+        public static List<Pet> pets = new List<Pet>();
+
         private int _age;
         private string _name;
         private string _type;
