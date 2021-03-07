@@ -1,0 +1,6 @@
+C:\Users\Kevin\source\repos\PetClass\PetClass\bin\Debug\PetClass.dll
+C:\Users\Kevin\source\repos\PetClass\PetClass\bin\Debug\PetClass.pdb
+C:\Users\Kevin\source\repos\PetClass\PetClass\obj\Debug\PetClassLibrary.csprojAssemblyReference.cache
+C:\Users\Kevin\source\repos\PetClass\PetClass\obj\Debug\PetClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\source\repos\PetClass\PetClass\obj\Debug\PetClass.dll
+C:\Users\Kevin\source\repos\PetClass\PetClass\obj\Debug\PetClass.pdb

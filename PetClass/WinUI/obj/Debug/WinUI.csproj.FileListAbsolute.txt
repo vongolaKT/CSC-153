@@ -1,0 +1,13 @@
+C:\Users\Kevin\source\repos\PetClass\WinUI\bin\Debug\WinUI.exe.config
+C:\Users\Kevin\source\repos\PetClass\WinUI\bin\Debug\WinUI.exe
+C:\Users\Kevin\source\repos\PetClass\WinUI\bin\Debug\WinUI.pdb
+C:\Users\Kevin\source\repos\PetClass\WinUI\bin\Debug\PetClass.dll
+C:\Users\Kevin\source\repos\PetClass\WinUI\bin\Debug\PetClass.pdb
+C:\Users\Kevin\source\repos\PetClass\WinUI\obj\Debug\WinUI.csprojAssemblyReference.cache
+C:\Users\Kevin\source\repos\PetClass\WinUI\obj\Debug\WinUI.Form1.resources
+C:\Users\Kevin\source\repos\PetClass\WinUI\obj\Debug\WinUI.Properties.Resources.resources
+C:\Users\Kevin\source\repos\PetClass\WinUI\obj\Debug\WinUI.csproj.GenerateResource.cache
+C:\Users\Kevin\source\repos\PetClass\WinUI\obj\Debug\WinUI.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\source\repos\PetClass\WinUI\obj\Debug\WinUI.csproj.CopyComplete
+C:\Users\Kevin\source\repos\PetClass\WinUI\obj\Debug\WinUI.exe
+C:\Users\Kevin\source\repos\PetClass\WinUI\obj\Debug\WinUI.pdb
