@@ -4,3 +4,8 @@ C:\Users\Kevin\Desktop\CSC-153 Github C#\Hogwarts_Trolls_In_The_Dungeon\EngineCl
 C:\Users\Kevin\Desktop\CSC-153 Github C#\Hogwarts_Trolls_In_The_Dungeon\EngineClassLibrary\bin\Debug\EngineClassLibrary.pdb
 C:\Users\Kevin\Desktop\CSC-153 Github C#\Hogwarts_Trolls_In_The_Dungeon\EngineClassLibrary\obj\Debug\EngineClassLibrary.dll
 C:\Users\Kevin\Desktop\CSC-153 Github C#\Hogwarts_Trolls_In_The_Dungeon\EngineClassLibrary\obj\Debug\EngineClassLibrary.pdb
+C:\Users\griffink3794\Downloads\Hogwarts_Trolls_In_The_Dungeon\EngineClassLibrary\bin\Debug\EngineClassLibrary.dll
+C:\Users\griffink3794\Downloads\Hogwarts_Trolls_In_The_Dungeon\EngineClassLibrary\bin\Debug\EngineClassLibrary.pdb
+C:\Users\griffink3794\Downloads\Hogwarts_Trolls_In_The_Dungeon\EngineClassLibrary\obj\Debug\EngineClassLibrary.csprojAssemblyReference.cache
+C:\Users\griffink3794\Downloads\Hogwarts_Trolls_In_The_Dungeon\EngineClassLibrary\obj\Debug\EngineClassLibrary.dll
+C:\Users\griffink3794\Downloads\Hogwarts_Trolls_In_The_Dungeon\EngineClassLibrary\obj\Debug\EngineClassLibrary.pdb

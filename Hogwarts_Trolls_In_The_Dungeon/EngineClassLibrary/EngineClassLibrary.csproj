@@ -56,6 +56,7 @@
     <Compile Include="Core\Spells,Items,Money\Money.cs" />
     <Compile Include="Core\Spells,Items,Money\Potions.cs" />
     <Compile Include="Core\Spells,Items,Money\Spells.cs" />
+    <Compile Include="Core\StandardMessages.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

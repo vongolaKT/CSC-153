@@ -13,9 +13,7 @@ namespace EngineClassLibrary.Commands
             switch (input)
             {
                 case "rooms":
-                    Console.WriteLine("");
-                    Console.WriteLine("Rooms:");
-                    Console.WriteLine("_______________________________________________");
+                    Core.StandardMessages.ViewAfterChoice("Rooms");
                     foreach (string room in EngineClassLibrary.Core.Location.Rooms.Room)
                     {
                         Console.WriteLine(room);
@@ -25,74 +23,58 @@ namespace EngineClassLibrary.Commands
                     break;
 
                 case "spells":
-                    Console.WriteLine("");
-                    Console.WriteLine("Spells:");
-                    Console.WriteLine("_______________________________________________");
-                    foreach (string spell in EngineClassLibrary.Core.Spells_Items_Money.Spells.Spell)
-                    {
-                        Console.WriteLine(spell);
-                    }
+                    Core.StandardMessages.ViewAfterChoice("Spells");
+                    LoopThroughList(Core.Spells_Items_Money.Spells.Spell);
                     break;
 
                 case "potions":
-                    Console.WriteLine("");
-                    Console.WriteLine("Potions:");
-                    Console.WriteLine("_______________________________________________");
-                    foreach (string potion in Core.Spells_Items_Money.Potions.Potion)
-                    {
-                        Console.WriteLine(potion);
-                    }
+                    Core.StandardMessages.ViewAfterChoice("Potions");
+                    LoopThroughList(Core.Spells_Items_Money.Potions.Potion);
                     break;
 
                 case "money":
-                    Console.WriteLine("");
-                    Console.WriteLine("Money:");
-                    Console.WriteLine("_______________________________________________");
-                    foreach (string money in Core.Spells_Items_Money.Money.Moneys)
-                    {
-                        Console.WriteLine(money);
-                    }
+                    Core.StandardMessages.ViewAfterChoice("Money");
+                    LoopThroughList(Core.Spells_Items_Money.Money.Moneys);
                     break;
 
                 case "items":
-                    Console.WriteLine("");
-                    Console.WriteLine("Items:");
-                    Console.WriteLine("_______________________________________________");
-                    foreach (string item in Core.Spells_Items_Money.Items.Item)
-                    {
-                        Console.WriteLine(item);
-                    }
+                    Core.StandardMessages.ViewAfterChoice("Items");
+                    LoopThroughList(Core.Spells_Items_Money.Items.Item);
                     break;
 
                 case "enemies":
-                    Console.WriteLine("");
-                    Console.WriteLine("Enemies:");
-                    Console.WriteLine("_______________________________________________");
-                    foreach (string enemy in Core.Player_Enemies.Enemies.Enemy)
-                    {
-                        Console.WriteLine(enemy);
-                    }
+                    Core.StandardMessages.ViewAfterChoice("Enemies");
+                    LoopThroughList(Core.Player_Enemies.Enemies.Enemy);
                     break;
 
                 case "north":
-                    string outputNorth = EngineClassLibrary.Commands.PlayerMove.Move("north");
+                    string outputNorth = PlayerMove.Move("north");
                     Console.WriteLine(outputNorth);
                     break;
 
                 case "south":
-                    string outputSouth = EngineClassLibrary.Commands.PlayerMove.Move("south");
+                    string outputSouth = PlayerMove.Move("south");
                     Console.WriteLine(outputSouth);
                     break;
                 case "attack":
-                    int damage = EngineClassLibrary.Commands.Attack.AttackDamage();
+                    int damage = Attack.AttackDamage();
                     Console.WriteLine($"Damage Dealt to enemy : {damage}");
                     break;
                 case "help":
                     HelpFile.DisplayHelpInfo();
                     break;
                 default:
-                    Console.WriteLine("Not a choice!");
+                    Core.StandardMessages.ChoiceError();
                     break;
+            }
+        }
+
+
+        public static void LoopThroughList(List<string> input)
+        {
+            foreach(string item in input)
+            {
+                Console.WriteLine(item);
             }
         }
     }   
