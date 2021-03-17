@@ -1,0 +1,6 @@
+C:\Users\Kevin\Desktop\CSC-153 Github C#\EmployeeClass\EmployeeClassLibrary\bin\Debug\EmployeeClassLibrary.dll
+C:\Users\Kevin\Desktop\CSC-153 Github C#\EmployeeClass\EmployeeClassLibrary\bin\Debug\EmployeeClassLibrary.pdb
+C:\Users\Kevin\Desktop\CSC-153 Github C#\EmployeeClass\EmployeeClassLibrary\obj\Debug\EmployeeClassLibrary.csprojAssemblyReference.cache
+C:\Users\Kevin\Desktop\CSC-153 Github C#\EmployeeClass\EmployeeClassLibrary\obj\Debug\EmployeeClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Desktop\CSC-153 Github C#\EmployeeClass\EmployeeClassLibrary\obj\Debug\EmployeeClassLibrary.dll
+C:\Users\Kevin\Desktop\CSC-153 Github C#\EmployeeClass\EmployeeClassLibrary\obj\Debug\EmployeeClassLibrary.pdb
