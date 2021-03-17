@@ -1,2 +1,4 @@
-.DS_Store
+# Remove movement files and machine specific junk the VS creates
+*.DS_Store
 *.suo
+*.cache
