@@ -14,27 +14,27 @@ namespace EngineClassLibrary.Commands
             switch (direction) {
 
                 case "north":
-                    if (EngineClassLibrary.Core.Location.CurrentLocation.playerPos == 4)
+                    if (Core.Location.CurrentLocation.playerPos == 4)
                     {
                         return "Cannot move any further north!";
                         
                     }
                     else
                     {
-                        EngineClassLibrary.Core.Location.CurrentLocation.playerPos++;
+                        Core.Location.CurrentLocation.playerPos++;
                         return "Moved North!";
                         
                     }
                     
                 case "south":
-                    if (EngineClassLibrary.Core.Location.CurrentLocation.playerPos == 0)
+                    if (Core.Location.CurrentLocation.playerPos == 0)
                     {
                         return "Cannot move any further south!";
                         
                     }
                     else
                     {
-                        EngineClassLibrary.Core.Location.CurrentLocation.playerPos--;
+                        Core.Location.CurrentLocation.playerPos--;
                         return "Moved South!";
                         
                     }

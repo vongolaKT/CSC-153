@@ -8,6 +8,19 @@ namespace EngineClassLibrary.Core.Location
 {
     public class Rooms
     {
-        public static List<string> Room = new List<string> {"Hogwart's Express", "Lake", "Entrance Hall", "Dungeons", "Common Room" };
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public string Exits { get; set; }
+
+        public Rooms(string name, string description, string exits)
+        {
+            Name = name;
+            Description = description;
+            Exits = exits;
+
+        }
+
+        public static List<Rooms> rooms = new List<Rooms>(); // {"Hogwart's Express", "Lake", "Entrance Hall", "Dungeons", "Common Room" };
+
     }
 }

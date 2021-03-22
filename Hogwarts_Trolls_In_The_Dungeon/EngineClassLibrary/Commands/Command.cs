@@ -14,9 +14,9 @@ namespace EngineClassLibrary.Commands
             {
                 case "rooms":
                     Core.StandardMessages.ViewAfterChoice("Rooms");
-                    foreach (string room in EngineClassLibrary.Core.Location.Rooms.Room)
+                    foreach (Core.Location.Rooms room in Core.Location.Rooms.rooms)
                     {
-                        Console.WriteLine(room);
+                        Console.WriteLine(room.Name);
                     }
                     Console.WriteLine("_______________________________________________");
 
@@ -44,7 +44,10 @@ namespace EngineClassLibrary.Commands
 
                 case "enemies":
                     Core.StandardMessages.ViewAfterChoice("Enemies");
-                    LoopThroughList(Core.Player_Enemies.Enemies.Enemy);
+                    foreach(Core.Player_Enemies.Enemies enemy in Core.Player_Enemies.Enemies.Enemy)
+                    {
+                        Console.WriteLine(enemy.Name);
+                    }
                     break;
 
                 case "north":
@@ -63,6 +66,11 @@ namespace EngineClassLibrary.Commands
                 case "help":
                     HelpFile.DisplayHelpInfo();
                     break;
+                case "exit":
+                    Console.ForegroundColor = ConsoleColor.DarkRed;
+                    Console.WriteLine("Exiting!");
+                    exit = true;
+                    break;
                 default:
                     Core.StandardMessages.ChoiceError();
                     break;
@@ -77,5 +85,15 @@ namespace EngineClassLibrary.Commands
                 Console.WriteLine(item);
             }
         }
+
+        public static string CheckInput(ref string input)
+        {
+            // make input case insensitive
+            input = input.ToLower();
+
+            return input;
+        }
+
+        public static bool exit = false;
     }   
 }

@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 using EngineClassLibrary;
 
 /**
-* 2/28/2021
+* 3/21/2021
 * CSC 153
 * Kevin Griffin
-* Refactoring of original Text Adventure and added Attacks, also added structure for future expansion as I would like to use this branch exclusively
+* Making Player, Rooms and Enemies into Objects to hold more information.
 */
 
 namespace HogwartsConsole
@@ -19,14 +19,23 @@ namespace HogwartsConsole
         // TODO Figure out how to make it so I do not have to use the full path in the class library every time I want to access or call something.... This hasn't occured before...
         static void Main(string[] args)
         {
-            
-            bool exit = false;
+            // Make console view stretch to whole screen, for explanation go to ConsoleView
+            ConsoleView.Maximize();
+
+            // Build all lists and world items
+            EngineClassLibrary.Core.ListBuilder.Build();
+
+            // Introduction
+            // This is also where player construction logic is sent through. Currently saving and loading is not supported.
+            EngineClassLibrary.Create_Save_Load.Introduction.Welcome();
+
 
             //Main menu
-            
-            while (exit == false)
+
+            while (EngineClassLibrary.Commands.Command.exit == false)
             {
-                MainMenu();
+                EngineClassLibrary.Core.StandardMessages.DisplayLocation();
+                EngineClassLibrary.Core.StandardMessages.DisplayMenu();
 
                 string input = Console.ReadLine();
                 
@@ -36,44 +45,13 @@ namespace HogwartsConsole
                     continue;
                 }
 
-                // make input case insensitive
-                string insensitiveInput = input.ToLower();
+                EngineClassLibrary.Commands.Command.CheckInput(ref input);
 
-               
 
-                if (insensitiveInput == "exit")
-                {
-                    Console.ForegroundColor = ConsoleColor.DarkRed;
-                    Console.WriteLine("Exiting!");
-                    break;
-                }
+                Console.ForegroundColor = ConsoleColor.DarkCyan;                                        // Changes the color before getting information back from Command Selection
 
-                Console.ForegroundColor = ConsoleColor.DarkCyan;                                        // Changes the color before getting information back from 
-
-                EngineClassLibrary.Commands.Command.CommandSelection(insensitiveInput);
+                EngineClassLibrary.Commands.Command.CommandSelection(input);
             }
-        }
-        public static void MainMenu()
-        {
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("________________________________________________________________________________________________________________________");
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            EngineClassLibrary.Core.Location.CurrentLocation.DisplayCurrentLocation();
-
-
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("________________________________________________________________________________________________________________________");
-            Console.WriteLine("Type 'Help' to see a list of commands");
-            Console.WriteLine("");
-
-            Console.WriteLine("1. Move North");
-            Console.WriteLine("2. Move South");
-            Console.WriteLine("3. Attack");
-            Console.WriteLine("4. Exit");
-            Console.WriteLine("________________________________________________________________________________________________________________________");
-            Console.WriteLine("Current Location: ");
-            Console.WriteLine("");
-            Console.Write("Enter a choice > ");
         }
     }
 }

@@ -41,7 +41,13 @@ namespace EngineClassLibrary.Core
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("________________________________________________________________________________________________________________________");
             Console.ForegroundColor = ConsoleColor.Cyan;
-            EngineClassLibrary.Core.Location.CurrentLocation.DisplayCurrentLocation();
+            Location.CurrentLocation.DisplayCurrentLocation();
+        }
+        public static void BreakApartDisplay()
+        {
+            Console.WriteLine("");
+            Console.WriteLine("________________________________________________________________________________________________________________________");
+            Console.WriteLine("");
         }
     }
 }

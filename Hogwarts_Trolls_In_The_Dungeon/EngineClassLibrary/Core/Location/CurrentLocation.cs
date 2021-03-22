@@ -13,7 +13,7 @@ namespace EngineClassLibrary.Core.Location
 
         public static void DisplayCurrentLocation()
         {
-            Console.WriteLine($"Current location : {EngineClassLibrary.Core.Location.Rooms.Room[playerPos]}");
+            Console.WriteLine($"Current location : {Rooms.rooms[playerPos].Name}");
         }
     }
 }

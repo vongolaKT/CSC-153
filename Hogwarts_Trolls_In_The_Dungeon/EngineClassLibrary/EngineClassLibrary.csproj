@@ -47,6 +47,7 @@
     <Compile Include="Commands\PlayerMove.cs" />
     <Compile Include="Core\Combat\Combat.cs" />
     <Compile Include="Core\Combat\RNG.cs" />
+    <Compile Include="Core\ListBuilder.cs" />
     <Compile Include="Core\Location\CurrentLocation.cs" />
     <Compile Include="Core\Location\Rooms.cs" />
     <Compile Include="Core\Player,Enemies\Enemies.cs" />
@@ -57,6 +58,10 @@
     <Compile Include="Core\Spells,Items,Money\Potions.cs" />
     <Compile Include="Core\Spells,Items,Money\Spells.cs" />
     <Compile Include="Core\StandardMessages.cs" />
+    <Compile Include="Create,Save,Load\CreatePlayer.cs" />
+    <Compile Include="Create,Save,Load\DetermineNewPlayer.cs" />
+    <Compile Include="Create,Save,Load\Introduction.cs" />
+    <Compile Include="Create,Save,Load\Load.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
