@@ -8,6 +8,16 @@ namespace EngineClassLibrary.Core.Spells_Items_Money
 {
     public class Money
     {
-        public static List<string> Moneys = new List<string> { "Galleon(s)", "Sickle(s)", "Knut(s)" };
+        public string Name { get; set; }
+        public string Description { get; set; }
+
+        public Money(string name, string description)
+        {
+            Name = name;
+            Description = description;
+        }
+
+
+        public static List<Money> Moneys = new List<Money>(); // "Galleon(s)", "Sickle(s)", "Knut(s)" };
     }
 }

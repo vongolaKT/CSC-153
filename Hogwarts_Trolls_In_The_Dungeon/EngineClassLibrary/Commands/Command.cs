@@ -24,24 +24,36 @@ namespace EngineClassLibrary.Commands
 
                 case "spells":
                     Core.StandardMessages.ViewAfterChoice("Spells");
-                    LoopThroughList(Core.Spells_Items_Money.Spells.Spell);
+                    foreach(Core.Spells_Items_Money.Spells spell in Core.Spells_Items_Money.Spells.Spell)
+                    {
+                        Console.WriteLine(spell.Name);
+                    }
                     break;
 
                 case "potions":
                     Core.StandardMessages.ViewAfterChoice("Potions");
-                    LoopThroughList(Core.Spells_Items_Money.Potions.Potion);
+                    foreach (Core.Spells_Items_Money.Potions potions in Core.Spells_Items_Money.Potions.Potion)
+                    {
+                        Console.WriteLine(potions.Name);
+                    }
                     break;
 
                 case "money":
                     Core.StandardMessages.ViewAfterChoice("Money");
-                    LoopThroughList(Core.Spells_Items_Money.Money.Moneys);
+                    foreach (Core.Spells_Items_Money.Money money in Core.Spells_Items_Money.Money.Moneys)
+                    {
+                        Console.WriteLine(money.Name);
+                    }
                     break;
 
                 case "items":
                     Core.StandardMessages.ViewAfterChoice("Items");
-                    LoopThroughList(Core.Spells_Items_Money.Items.Item);
+                    foreach (Core.Spells_Items_Money.Items item in Core.Spells_Items_Money.Items.Item)
+                    {
+                        Console.WriteLine(item.Name);
+                    }
                     break;
-
+                   
                 case "enemies":
                     Core.StandardMessages.ViewAfterChoice("Enemies");
                     foreach(Core.Player_Enemies.Enemies enemy in Core.Player_Enemies.Enemies.Enemy)
@@ -74,15 +86,6 @@ namespace EngineClassLibrary.Commands
                 default:
                     Core.StandardMessages.ChoiceError();
                     break;
-            }
-        }
-
-
-        public static void LoopThroughList(List<string> input)
-        {
-            foreach(string item in input)
-            {
-                Console.WriteLine(item);
             }
         }
 

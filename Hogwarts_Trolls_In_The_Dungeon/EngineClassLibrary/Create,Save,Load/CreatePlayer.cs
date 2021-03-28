@@ -93,7 +93,7 @@ namespace EngineClassLibrary.Create_Save_Load
 
             while (stopPassword == false)
             {
-                Console.Write("Please create a password \nYour Password must contain a lowercase letter, an uppercase letter, and a special character\n And must also contain 6 characters \n>> ");
+                Console.Write("Please create a password \nYour Password must contain a lowercase letter, an uppercase letter, and a special character\nAnd must also contain 6 characters \n>> ");
                 password = Console.ReadLine();
 
                   // First checks if any index/subscript of the password conatains the specified characters, if it does IndexofAny will return the index which will be higher than -1, if it doesn't it fails
