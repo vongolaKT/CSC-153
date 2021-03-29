@@ -1,0 +1,5 @@
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Mass and Weight\WeightClassLibrary\bin\Debug\WeightClassLibrary.dll
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Mass and Weight\WeightClassLibrary\bin\Debug\WeightClassLibrary.pdb
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Mass and Weight\WeightClassLibrary\obj\Debug\WeightClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Mass and Weight\WeightClassLibrary\obj\Debug\WeightClassLibrary.dll
+C:\Users\Kevin\Desktop\CSC-153 Github C#\Mass and Weight\WeightClassLibrary\obj\Debug\WeightClassLibrary.pdb
