@@ -9,6 +9,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WeightClassLibrary;
 
+/**
+* 03/28/2021
+* CSC 153
+* Kevin Griffin
+* Given an input of mass, calculates the weight of a given object
+*/
+
 namespace WinUI
 {
     public partial class MassAndWeightForm : Form
