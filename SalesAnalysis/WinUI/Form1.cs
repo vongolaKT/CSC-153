@@ -10,10 +10,12 @@ using System.Windows.Forms;
 using System.IO;
 
 /**
-* 4/20/21
+* 4/26/21
 * CSC 153
 * Kevin Griffin
 * Reads numbers from a text file to an array then displays the array, then displays the total amount of the array, average, largest number, and smallest number
+* 
+* Changed from an array to lists
 */
 
 namespace WinUI
@@ -31,13 +33,14 @@ namespace WinUI
             int index = 0;
             decimal total = 0m;
 
-            decimal[] sales = new decimal[SIZE];
+            List<decimal> sales = new List<decimal>();
+            
 
             StreamReader inputfile = File.OpenText("Sales.txt");
 
-            while (!inputfile.EndOfStream && index < sales.Length)
+            while (!inputfile.EndOfStream && index < SIZE)
             {
-                sales[index] = decimal.Parse(inputfile.ReadLine());
+                sales.Add(decimal.Parse(inputfile.ReadLine()));
                 index++;
             }
 
@@ -52,7 +55,7 @@ namespace WinUI
             }
 
 
-            decimal average = total / sales.Length;
+            decimal average = total / sales.Count;
 
             decimal largeNum = LargestNum(sales);
 
@@ -66,7 +69,7 @@ namespace WinUI
 
         }
 
-        private decimal SmallestNum(decimal[] sales, decimal largeNum)
+        private decimal SmallestNum(List<decimal> sales, decimal largeNum)
         {
             decimal lowNum = largeNum;
 
@@ -81,7 +84,7 @@ namespace WinUI
             return lowNum;
         }
 
-        private decimal LargestNum(decimal[] sales)
+        private decimal LargestNum(List<decimal> sales)
         {
             decimal highNum = 0m;
 
