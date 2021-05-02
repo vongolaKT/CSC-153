@@ -12,7 +12,7 @@ using System.Windows.Forms;
 * 5/2/2021
 * CSC 153
 * Kevin Griffin
-* Program description
+* Takes a mass and velocity and calculates the kinetic energy
 */
 
 namespace WinUI
