@@ -1,0 +1,10 @@
+C:\Users\Kevin\Desktop\CSC-153 Github C#\KineticEnergy\WinUI\bin\Debug\WinUI.exe.config
+C:\Users\Kevin\Desktop\CSC-153 Github C#\KineticEnergy\WinUI\bin\Debug\WinUI.exe
+C:\Users\Kevin\Desktop\CSC-153 Github C#\KineticEnergy\WinUI\bin\Debug\WinUI.pdb
+C:\Users\Kevin\Desktop\CSC-153 Github C#\KineticEnergy\WinUI\obj\Debug\WinUI.csprojAssemblyReference.cache
+C:\Users\Kevin\Desktop\CSC-153 Github C#\KineticEnergy\WinUI\obj\Debug\WinUI.Form1.resources
+C:\Users\Kevin\Desktop\CSC-153 Github C#\KineticEnergy\WinUI\obj\Debug\WinUI.Properties.Resources.resources
+C:\Users\Kevin\Desktop\CSC-153 Github C#\KineticEnergy\WinUI\obj\Debug\WinUI.csproj.GenerateResource.cache
+C:\Users\Kevin\Desktop\CSC-153 Github C#\KineticEnergy\WinUI\obj\Debug\WinUI.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Desktop\CSC-153 Github C#\KineticEnergy\WinUI\obj\Debug\WinUI.exe
+C:\Users\Kevin\Desktop\CSC-153 Github C#\KineticEnergy\WinUI\obj\Debug\WinUI.pdb
