@@ -9,3 +9,9 @@ C:\Users\griffink3794\Downloads\Hogwarts_Trolls_In_The_Dungeon\EngineClassLibrar
 C:\Users\griffink3794\Downloads\Hogwarts_Trolls_In_The_Dungeon\EngineClassLibrary\obj\Debug\EngineClassLibrary.csprojAssemblyReference.cache
 C:\Users\griffink3794\Downloads\Hogwarts_Trolls_In_The_Dungeon\EngineClassLibrary\obj\Debug\EngineClassLibrary.dll
 C:\Users\griffink3794\Downloads\Hogwarts_Trolls_In_The_Dungeon\EngineClassLibrary\obj\Debug\EngineClassLibrary.pdb
+C:\Users\Kevin\source\repos\vongolaKT\CSC-153\Hogwarts_Trolls_In_The_Dungeon\EngineClassLibrary\bin\Debug\EngineClassLibrary.dll
+C:\Users\Kevin\source\repos\vongolaKT\CSC-153\Hogwarts_Trolls_In_The_Dungeon\EngineClassLibrary\bin\Debug\EngineClassLibrary.pdb
+C:\Users\Kevin\source\repos\vongolaKT\CSC-153\Hogwarts_Trolls_In_The_Dungeon\EngineClassLibrary\obj\Debug\EngineClassLibrary.csproj.AssemblyReference.cache
+C:\Users\Kevin\source\repos\vongolaKT\CSC-153\Hogwarts_Trolls_In_The_Dungeon\EngineClassLibrary\obj\Debug\EngineClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\source\repos\vongolaKT\CSC-153\Hogwarts_Trolls_In_The_Dungeon\EngineClassLibrary\obj\Debug\EngineClassLibrary.dll
+C:\Users\Kevin\source\repos\vongolaKT\CSC-153\Hogwarts_Trolls_In_The_Dungeon\EngineClassLibrary\obj\Debug\EngineClassLibrary.pdb
